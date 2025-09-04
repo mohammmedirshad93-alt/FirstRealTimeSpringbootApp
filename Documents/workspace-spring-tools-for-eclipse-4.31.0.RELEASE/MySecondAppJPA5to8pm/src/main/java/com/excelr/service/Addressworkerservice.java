@@ -26,14 +26,14 @@ import jakarta.transaction.Transactional;
 		wor.setEmpId(203);
 		wor.setWorName("Azher");
 		worker1.save(wor);
-
-	
 		
 		Address add=new Address();
 		add.setEmpId(203);
 		add.setAddId(18-9-288/1);
 		add.setCity("Nizamabad");
 		addressRepository.save(add);
+		
+		System.out.println("How are you guys this is just for practis perpos ");
 
 	 }
 
